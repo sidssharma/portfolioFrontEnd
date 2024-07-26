@@ -9,6 +9,7 @@
     "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-chartjs-2": "^5.2.0",
@@ -23,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +44,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage":"https://sidssharma.github.io/portfolioFrontEnd"
+  "homepage": "https://sidssharma.github.io/portfolioFrontEnd"
 }
