@@ -24,14 +24,14 @@ export default function Header(props) {
         <>
             <Navbar expand="lg" className="backgroundColor1">
                 <Container>
-                    <Navbar.Brand href="#home" className="textColor2 textStyle">
+                    <Navbar.Brand href="https://sidssharma.github.io/portfolioFrontEnd/#/" className="textColor2 textStyle">
                         <img src={logo} className="logo" alt="Logo" onClick={homeNavigate} />
                      
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ borderColor: 'white' }} />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="/" className="textColor1" onClick={homeNavigate}>Home</Nav.Link>
+                            <Nav.Link href="https://sidssharma.github.io/portfolioFrontEnd/#/" className="textColor1" onClick={homeNavigate}>Home</Nav.Link>
                             {props.savedPortfolioName ? (
                                 <Nav.Link href="#link" className="text-success">
                                     <b>Current Portfolio: </b>{props.savedPortfolioName}
