@@ -17,7 +17,7 @@ export default function AddStockSection(props) {
     useEffect(() => {
         async function stockList() {
             try {
-                const response = await axios.get("http://localhost:3000/stocklist",{ withCredentials:true});
+                const response = await axios.get("https://strategicfolio.onrender.com/stocklist",{ withCredentials:true});
                 const fetchedData = response.data;
                 setStocks(fetchedData);
             } catch (err) {
