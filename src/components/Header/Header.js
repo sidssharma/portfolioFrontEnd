@@ -31,7 +31,7 @@ export default function Header(props) {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ borderColor: 'white' }} />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#home" className="textColor1" onClick={homeNavigate}>Home</Nav.Link>
+                            <Nav.Link href="/" className="textColor1" onClick={homeNavigate}>Home</Nav.Link>
                             {props.savedPortfolioName ? (
                                 <Nav.Link href="#link" className="text-success">
                                     <b>Current Portfolio: </b>{props.savedPortfolioName}
