@@ -1,0 +1,10 @@
+
+.custom-row {
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  
+}
+
+.custom-row:hover {
+    background-color: #111010; /* Change this to your desired hover color */
+}

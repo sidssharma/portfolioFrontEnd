@@ -1,0 +1,29 @@
+/* StockChart.css */
+.chartContainer {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolioContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.lineChartWrapper {
+    position: relative;
+    height: 400px; /* Set a fixed height */
+}
+
+.dropdown-align-right .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: rgba(75, 192, 192, 0.2);
+}

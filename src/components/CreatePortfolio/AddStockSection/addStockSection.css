@@ -1,0 +1,22 @@
+.addIcon {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.stockCluster {
+    border-color: black;
+    border: 0px 0px 0px 0px;
+    border-bottom: groove 1px;
+}
+
+.wholeSection {
+    max-height: 100vh;
+    overflow: scroll;
+}
+
+@media (max-width: 768px) {
+    .stockClusterParent {
+        display: none;
+    }
+}

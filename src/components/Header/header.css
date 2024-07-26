@@ -1,0 +1,32 @@
+.header{
+    background-color: #defcf9 !important;
+    color: #cadefc !important;
+}
+.textColor1{
+    color: #000000 !important;
+    font-family:"Roboto" !important;
+}
+.backgroundColor1{
+    /* background-color: #ffffff !important; */
+    background:linear-gradient(90deg, rgba(219,252,251,1) 21%, rgba(203,249,249,1) 100%);
+}
+
+.textColor2{
+    color: #626ccc !important;
+    
+    
+}
+
+.logo{
+    width: 90px;
+}
+.navbar-toggler-icon {
+    color: white !important; /* Important to override Bootstrap styles */
+}
+
+.createportfolio{
+    border-radius: 10px !important;
+    border-style: solid !important;
+    border-color: blue !important;
+    border: 10px solid blue !important;
+}

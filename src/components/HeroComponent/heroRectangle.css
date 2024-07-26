@@ -1,0 +1,55 @@
+.heroRectangle{
+    justify-content: center;
+    width: 100%;
+}
+
+.portfolioCreateButton{
+    background-color: rgb(195, 190, 190) !important;
+    border-color: blue !important;
+    border-radius: 10px !important;
+    border: 10px blue !important;
+}
+
+.full-height {
+    height: calc(100vh - 90px); /* Adjust height to account for the header */
+}
+
+.logoImage {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.backgroundColor1 {
+    background-color: #f8f9fa; /* Change as needed */
+}
+
+.textColor1 {
+    color: #343a40; /* Change as needed */
+}
+
+.textColor2 {
+    color: #ffffff; /* Change as needed */
+}
+
+.loginButton {
+    padding: 10px 20px;
+}
+
+@media (max-width: 767px) {
+    .full-height {
+        height: auto; /* Adjust for small screens */
+    }
+
+    .logoImage {
+        max-width: 80px;
+    }
+
+    .display-3 {
+        font-size: 2rem;
+    }
+}
+
+.backgroundColor5{
+    background: linear-gradient(135deg, #ff4081, #81d4fa);
+
+}

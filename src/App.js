@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home/Home.js';
+import CreatePortfolio from './components/CreatePortfolio/CreatePortfolio.js';
+import Registration from './components/Registration/Registration.js';
+import Login from './components/Login/Login.js';
+import Test from './components/Test.js';
+import { useState,useEffect } from 'react';
 
 function App() {
+  const [authenticated, setAuthenticated] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/createportfolio" element={<CreatePortfolio />} />
+        <Route path="/register" element={<Registration />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/test" element={<Test/>}/>
+      </Routes>
+    </Router>
   );
 }
 

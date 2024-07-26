@@ -1,0 +1,45 @@
+.section1 {
+    height: 70vh;
+    width: 100%;
+   
+}
+
+.section2 {
+    height: 70vh;
+}
+
+.section3 {
+    height: 10vh;
+    width: 100%;
+}
+
+
+.section4 {
+    height: 40vh;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .section1 {
+        width: 75%;
+    }
+
+    .section2 {
+        width: 25%;
+    }
+}
+
+@media (max-width: 767px) {
+    .section1, .section2, .section3, .section4 {
+        width: 100%;
+    }
+    .section1{
+        height: 60vh;
+    }
+    .section2{
+        margin-top: 210px !important;
+    }
+    .sectionClass3{
+        margin-top: 0px !important;
+    }
+}

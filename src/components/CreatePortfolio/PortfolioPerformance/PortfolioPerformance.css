@@ -1,0 +1,47 @@
+/* PortfolioPerformance.css */
+
+.portfolio-performance-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.material-table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 0.81rem !important; 
+}
+
+.material-table thead {
+    background-color: #3f51b5;
+    color: white;
+}
+
+.material-table th,
+.material-table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.material-table tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.textColor2 {
+    color: #3f51b5;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .portfolio-performance-container {
+        padding: 10px;
+    }
+
+    .material-table th,
+    .material-table td {
+        padding: 8px;
+    }
+}
