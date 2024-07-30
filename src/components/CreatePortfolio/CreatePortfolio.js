@@ -5,6 +5,7 @@ import PortfolioStocks from "./PortfolioStocks.js";
 import { useState, useEffect } from "react";
 import PortfolioSaveSection from "./PortfolioSaveSection/PortfolioSaveSection.js";
 import { useNavigate } from "react-router-dom";
+import HeaderNew from "../Header/HeaderNew.js";
 import axios from "axios";
 import {
     calculateCAGR,

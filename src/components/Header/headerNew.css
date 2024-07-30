@@ -1,0 +1,37 @@
+.fontFamily{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.fontColor{
+    color: black !important;
+}
+.logoHeading{
+    letter-spacing: 3px;
+}
+.nav-link {
+    display: flex !important;
+    color: black !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove margin-left to avoid pushing elements */
+    padding: 0 15px; /* Optional: Adjust padding as needed */
+    height: 100%; /* Ensure it takes full height of the Navbar */
+    text-align: center;
+   
+}
+.signUpButton{
+    border-radius: 25px !important;
+    width: 100px;
+    background-color: darkslategrey !important;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .nav-link{
+        width: 200px;
+    }
+}

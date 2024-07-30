@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button, Spinner, Container, Row, Col } from 'react-bootstrap';
 import './Login.css'; // Import custom CSS for additional styling
 import Header from '../Header/Header';
+import HeaderNew from '../Header/HeaderNew';
 
 export default function Login(props) {
    const googleAuth = () => {
@@ -53,7 +54,7 @@ export default function Login(props) {
 
    return (
     <>
-    <Header/>
+    <HeaderNew/>
        <Container className="login-container">
         
            <Row className="justify-content-md-center">
@@ -61,7 +62,7 @@ export default function Login(props) {
                    <div className="login-box">
                        <h2 className="login-title">Sign in to Your Account</h2>
                        <Button 
-                           variant="primary" 
+                           variant="secondary" 
                            size="lg" 
                            onClick={googleAuth} 
                            className="google-button"
@@ -73,7 +74,21 @@ export default function Login(props) {
                            />
                            Sign in with Google
                        </Button>
+                       <Button 
+                           variant="primary" 
+                           size="lg" 
+                           onClick={googleAuth} 
+                           className="google-button"
+                       >
+                           <img 
+                               src="https://img.icons8.com/color/16/000000/google-logo.png" 
+                               alt="Google icon" 
+                               className="google-icon" 
+                           />
+                           Sign up with Google
+                       </Button>
                    </div>
+                   
                </Col>
            </Row>
        </Container>

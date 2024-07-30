@@ -4,14 +4,17 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Herocomponent from '../HeroComponent/herocomponent';
 import "./home.css"
+import HeaderNew from '../Header/HeaderNew';
+import HeroComponentNew from '../HeroComponent/HeroComponentNew';
 
 
 function Home() {
   
   return (
     <div className="App mainClass">
-      <Header/>
-      <Herocomponent/>
+      <HeaderNew/>
+      {/* <Herocomponent/> */}
+      <HeroComponentNew/>
     </div>
   );
 }

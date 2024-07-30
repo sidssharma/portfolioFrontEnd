@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #ff4081, #81d4fa);
+    
 }
 
 .login-box {
@@ -40,6 +40,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .google-icon {

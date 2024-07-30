@@ -1,0 +1,22 @@
+.heroComponentRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%; /* Ensure the parent container takes up the full width */
+}
+
+.heroComponentFirstRow {
+    width: 50%;
+    display: flex; /* Ensure children are flex containers */
+   
+}
+.heroComponentSecondRow {
+    width: 50%;
+    display: flex; /* Ensure children are flex containers */
+   
+}
+
+@media only screen and (max-width: 768px) {
+    .heroComponentSecondRow{
+        display: none;
+    }
+}

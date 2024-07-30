@@ -1,0 +1,22 @@
+.rightHeroComponent {
+    display: flex;
+    justify-content: center; /* Center grid within the component */
+    align-items: center; /* Center grid vertically */
+    height: 100%; /* Ensure it takes full height of its container */
+    padding: 100px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    gap: 10px; /* Optional: spacing between images */
+    width: 100%;
+    height: 100%;
+}
+
+.gridItem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images cover the grid cells without distortion */
+}

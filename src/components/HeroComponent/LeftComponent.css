@@ -1,0 +1,47 @@
+.tryHeading{
+    text-align: left;
+    font-size: 15px;
+}
+.changeHeading{
+    font-size: 60px !important;
+    font-weight: 500;
+}
+.italic{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.leftHeroComponent{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 5px;
+    
+    /* align-content: center; */
+}
+
+.leftHeadlinePara{
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.createPortfolioButton{
+    margin-top: 50px;
+    border-radius: 25px !important;
+    width: 200px;
+    background-color: darkslategrey !important;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .leftHeroComponent{
+        justify-content: center;
+        margin-left: 10%;
+        margin-top: 0px;
+        
+        /* align-items: center; */
+    }
+    .leftHeadlinePara{
+        margin-top: 50px;
+    }
+}
