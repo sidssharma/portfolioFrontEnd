@@ -191,7 +191,7 @@ export default function CreatePortfolio(props) {
         <>
             {authenticated ? (
                 <>
-                    <Header savedPortfolioName={savedPortfolioName} authenticated={authenticated} user={user}/>
+                    <HeaderNew savedPortfolioName={savedPortfolioName} authenticated={authenticated} user={user}/>
                     <Row>
                         <Col xs={12} md={3}>
                             <AddStockSection addStock={(stockValues) => addStock(stockValues, setCurrStocks, setportfolioVolatilityReturns, portfolioStocks)} addWeightage={setModalShow} />
